@@ -1,6 +1,6 @@
-package org.example;
+package ru.scooter.api.courier;
 
-public class CourierId {
+public class CourierIdResponse {
     private int id;
 
     public int getId() {

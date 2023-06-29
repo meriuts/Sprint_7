@@ -1,6 +1,6 @@
-package org.example;
+package ru.scooter.api.orders;
 
-public class CreateOrder {
+public class OrderBodyRequest {
     private String firstName;
     private String lastName;
     private String address;
@@ -11,7 +11,7 @@ public class CreateOrder {
     private String comment;
     private String[] color;
 
-    public CreateOrder(String firstName, String lastName, String address, int metroStation, String phone, int rentTime, String deliveryDate, String comment, String[] color) {
+    public OrderBodyRequest(String firstName, String lastName, String address, int metroStation, String phone, int rentTime, String deliveryDate, String comment, String[] color) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.address = address;

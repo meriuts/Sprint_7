@@ -1,4 +1,4 @@
-package org.example.orderList;
+package ru.scooter.api.orders.list;
 
 public class AvailableStations {
     private String name;

@@ -1,15 +1,17 @@
-package org.example;
+package ru.scooter.api.courier;
 
-public class CourierLogin {
+public class CourierBodyCreateRequest {
     private String login;
     private String password;
+    private String firstName;
 
-    public CourierLogin (String login, String password) {
+    public CourierBodyCreateRequest(String login, String password, String firstName) {
         this.login = login;
         this.password = password;
+        this.firstName = firstName;
     }
 
-    public CourierLogin () {
+    public CourierBodyCreateRequest() {
 
     }
 
@@ -27,5 +29,13 @@ public class CourierLogin {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 }
